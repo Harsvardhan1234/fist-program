@@ -12,7 +12,7 @@ void main() {
     printf("Enter third number: ");
     scanf("%d", &c);
 
-    // Using nested ternary operator
+
     largest = (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
 
     printf("Largest number is: %d\n", largest);
