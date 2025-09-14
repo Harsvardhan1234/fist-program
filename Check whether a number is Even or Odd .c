@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+void main() {
     int num;
 
     printf("Enter a number: ");
@@ -9,5 +9,4 @@ int main() {
 
     (num % 2 == 0) ? printf("%d is Even\n", num) : printf("%d is Odd\n", num);
 
-    return 0;
 }
