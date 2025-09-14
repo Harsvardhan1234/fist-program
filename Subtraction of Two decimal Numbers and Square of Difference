@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void main() {
+    float a, b, diff, square;
+
+    printf("Enter first number: ");
+    scanf("%f", &a);
+
+    printf("Enter second number: ");
+    scanf("%f", &b);
+
+    diff = a - b;        
+    square = diff * diff;  
+
+    printf("Difference = %f\n", diff);
+    printf("Square of Difference = %.2f\n", square);
+
+}
